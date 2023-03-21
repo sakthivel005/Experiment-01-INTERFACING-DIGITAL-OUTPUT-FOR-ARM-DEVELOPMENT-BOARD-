@@ -88,8 +88,7 @@ void led();
 
 int main(void)
 {
-
-	HAL_Init();
+  HAL_Init();
 
   SystemClock_Config();
 
