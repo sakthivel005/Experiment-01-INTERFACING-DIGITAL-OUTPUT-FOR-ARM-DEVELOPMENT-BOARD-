@@ -79,9 +79,8 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
-
 #include "main.h"
- 
+
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 void led();
@@ -89,7 +88,7 @@ void led();
 int main(void)
 {
 
-        HAL_Init();
+	HAL_Init();
 
   SystemClock_Config();
 
@@ -189,7 +188,6 @@ void assert_failed(uint8_t *file, uint32_t line)
  
  
 ## Result :
-
 Interfacing a digital output with ARM microcontroller is executed and the results are verified.
 
 
